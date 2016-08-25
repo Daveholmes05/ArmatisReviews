@@ -46,3 +46,26 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+
+/* For mobile phones (default and adjust up from here) */
+/*@media (min-width: 0px) {*/
+	body {
+		background-color: grey;
+	}
+/* } */
+
+/* Tablets */
+@media (min-width: 768px) {
+  body {
+    background-color: blue;
+  }
+}
+
+/* Desktops */
+@media (min-width: 960px) {
+  body {
+    background-color: red;
+  }
+}
+
