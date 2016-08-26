@@ -56,38 +56,42 @@ table {
 
 /* Default CSS. Remove margins and padding from the list, and add a black background color */
 ul.topnav {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	background-color: black;
+    list-style-type: none;
+    margin: 0px;
+    padding: 20px 0;
+    overflow: hidden;
+    background-color: black;
+    text-align: center;
 }
 
 
 /* Float the list of items side by side */
 ul.topnav li {
-  float: left;
+	text-align: center;
+	display: inline-block;
+
 }
 
 /*Style the links inside the list items*/
 ul.topnav li a {
-  display: inline-block;
-  color: orange;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  transition: 1s;
-  font-size: 17px;
+    color: orange;
+    text-align: center;
+    text-decoration: none;
+    transition: 1s;
+    font-size: 17px;
+    padding: 20px 30px;
 }
+
+
 
 /* Change background color of links on hover */
 ul.topnav li a:hover {
-  background-color: gray;
+  	background-color: gray;
 }
 
 /* Hide the list item that contains the link that should open and close the topnav on small screens */
 ul.topnav li.icon {
-  display: none;
+  	display: none;
 }
 
 
@@ -101,6 +105,10 @@ ul.topnav li.icon {
   ul.topnav li.icon {
     float: right;
     display: inline-block;
+  }
+
+  ul.topnav:first-child {
+  	text-align: left;
   }
 }
   
