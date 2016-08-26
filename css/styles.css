@@ -47,12 +47,52 @@ table {
 	border-spacing: 0;
 }
 
+/* ================== */
+/* ================== */
+/* END OF CSS RESET */
+/* ================== */
+/* ================== */
 
-/* For mobile phones (default and adjust up from here) */
+
+/* Default CSS. Remove margins and padding from the list, and add a black background color */
+ul.topnav {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: black;
+}
+
+
+/* Float the list of items side by side */
+ul.topnav li {
+  float: left;
+}
+
+/*Style the links inside the list items*/
+ul.topnav li a {
+  display: inline-block;
+  color: orange;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: 1s;
+  font-size: 17px;
+}
+
+/* Change background color of links on hover */
+ul.topnav li a:hover {
+  background-color: gray;
+}
+
+/* Hide the list item that contains the link that should open and close the topnav on small screens */
+ul.topnav li.icon {
+  display: none;
+}
+
+
+/* For mobile phones */
 @media screen and (max-width: 768px) {
-	body {
-		background-color: white;
-  }
   
   ul.topnav li:not(:first-child) {
     display: none;
@@ -63,9 +103,10 @@ table {
     display: inline-block;
   }
 }
+  
 
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens */
-@media screen and (max-width: 768px;) {
+@media screen and (max-width: 768px) {
   ul.topnav.responsive {
     position: relative;
   }
@@ -88,42 +129,6 @@ table {
 }
 
 
-/* default CSS for mobile devices -- this will actually probably be for bigger res*/
-ul.topnav {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	background-color: black;
-}
-
-/* Float the list of items side by side */
-ul.topnav li {
-  float: left;
-}
-
-/* Style the links inside the list items */
-ul.topnav li a {
-  display: inline-block;
-  color: orange;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  transition: 1s;
-  font-size: 17px;
-}
-
-/* Change background color of links on hover */
-ul.topnav li a:hover {
-  background-color: gray;
-}
-
-/* Hide the list item that contains the link that should open and close the topnav on small screens 
-
-ul.topnav li.icon {
-  display: none;
-}
-*/
 
 
 
@@ -145,4 +150,3 @@ ul.topnav li.icon {
     
   }
 }
-
