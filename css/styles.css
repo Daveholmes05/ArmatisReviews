@@ -53,6 +53,9 @@ table {
 /* ================== */
 /* ================== */
 
+main {
+  position: relative;
+}
 
 /* Default CSS. Remove margins and padding from the list, and add a black background color */
 ul.topnav {
@@ -114,7 +117,8 @@ ul.topnav li.icon {
   .img-banner {
     height: 40vh;
     width: 100%;
-    background: url(img/Saigabanner.jpg);
+    background: url("../img/Saigabanner.jpg") no-repeat top;
+    background-size: cover;
   }
 }
   
