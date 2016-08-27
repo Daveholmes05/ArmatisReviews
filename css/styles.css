@@ -110,6 +110,12 @@ ul.topnav li.icon {
   ul.topnav:first-child {
   	text-align: left;
   }
+
+  .img-banner {
+    height: 40vh;
+    width: 100%;
+    background-color: blue;
+  }
 }
   
 
