@@ -86,7 +86,7 @@ ul.topnav li a {
 }
 
 /* Armatis Reviews logo in the top left */
-ul.topnav #myTopnav>img {
+#topLeftLogo {
 	height: 20px;
 }
 
