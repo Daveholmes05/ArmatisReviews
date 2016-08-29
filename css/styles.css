@@ -58,7 +58,7 @@ table {
 ul.topnav {
     list-style-type: none;
     margin: 0px;
-    padding: 20px 0;
+    padding: 10px 0;
     overflow: hidden;
     background-color: black;
     text-align: center;
@@ -79,10 +79,13 @@ ul.topnav li a {
     text-decoration: none;
     transition: 1s;
     font-size: 17px;
-    padding: 20px 30px;
+    padding: 0px 20px;
 }
 
-
+/* Armatis Reviews logo in the top left */
+ul.topnav #myTopnav>img {
+	height: 20px;
+}
 
 /* Change background color of links on hover */
 ul.topnav li a:hover {
