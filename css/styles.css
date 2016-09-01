@@ -101,6 +101,10 @@ ul.topnav li.icon {
 /* For mobile phones */
 @media screen and (max-width: 768px) {
   
+  main {
+  	position: relative;
+  }
+
   ul.topnav li:not(:first-child) {
     display: none;
   }
@@ -122,14 +126,26 @@ ul.topnav li.icon {
   }
 
   .videos-banner h1 {
-  text-align: center;
-  background: #FFA500;
-  padding: 10px;
-  border-top: 50px solid black;
+  	text-align: center;
+    /*background: #FFA500;*/
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    border-top: 50px solid black;
+    background: url("../img/orangeBackground.jpg");
   }
 
   .videos {
-  	margin: 10px 10px;
+  	margin: 0 20px;
+  	position: relative;
+  }
+
+  .videos iframe {
+  	margin: 10px auto;
+  	height: 300px;
+  	width: 100%;
+  	position: relative;
+  	border: #FFA500 solid 1px;
   }
 }
   
