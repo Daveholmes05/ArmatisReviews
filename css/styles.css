@@ -125,9 +125,8 @@ ul.topnav li.icon {
     background-size: cover;
   }
 
-  .videos-banner h1 {
+  .sections h1 {
   	text-align: center;
-    /*background: #FFA500;*/
     padding: 10px;
     font-size: 30px;
     font-weight: bold;
