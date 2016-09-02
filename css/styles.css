@@ -121,7 +121,7 @@ ul.topnav li.icon {
   .img-banner {
     height: 35vh;
     width: 100%;
-    background: url("../img/Saigabanner.jpg") no-repeat top;
+    background: url("../img/Armatis_Reviews_Saiga.jpg") no-repeat top;
     background-size: cover;
   }
 
@@ -145,6 +145,14 @@ ul.topnav li.icon {
   	width: 100%;
   	position: relative;
   	border: #FFA500 solid 1px;
+  }
+
+  footer {
+    position: relative;
+    border-top: orange solid;
+  	float: left;
+    margin: 10px 0;
+    width: 100%;
   }
 }
   
