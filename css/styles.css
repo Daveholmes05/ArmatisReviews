@@ -65,6 +65,9 @@ ul.topnav {
     overflow: hidden;
     background-color: black;
     text-align: center;
+    position: fixed;
+    width: 100%;
+    z-index: 50;
 }
 
 
@@ -153,6 +156,11 @@ ul.topnav li.icon {
   	float: left;
     margin: 10px 0;
     width: 100%;
+  }
+
+  footer div {
+  	margin: 10%;
+  	text-align: center;
   }
 }
   
