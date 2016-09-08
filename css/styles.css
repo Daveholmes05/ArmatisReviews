@@ -30,6 +30,8 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	background: url("../img/darkBackgroundWoodPlanks.jpg") no-repeat;
+	color: orange;
 }
 ol, ul {
 	list-style: none;
@@ -132,6 +134,7 @@ ul.topnav li.icon {
     font-weight: bold;
     border-top: 50px solid black;
     background: url("../img/orangeBackground.jpg");
+    color: black;
   }
 
   .videos {
