@@ -100,6 +100,7 @@ ul.topnav li.icon {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 /* CSS IMAGE BANNER SLIDESHOW */
 .diy-slideshow {
@@ -147,6 +148,8 @@ figure.show {
 	opacity: .3;
 	user-select: none;
 }
+=======
+>>>>>>> parent of ed57a96... slideshow added
 
 .next:hover, .prev:hover {
 	cursor: pointer;
