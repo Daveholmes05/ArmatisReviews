@@ -101,6 +101,7 @@ ul.topnav li.icon {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 /* CSS IMAGE BANNER SLIDESHOW */
 .diy-slideshow {
@@ -170,6 +171,11 @@ figure.show {
 	border-bottom-right-radius: 3px;
 }
 
+=======
+.carousel-inner {
+	height: 240px;
+}
+>>>>>>> ed57a96... slideshow added
 
 /* For mobile phones */
 @media screen and (max-width: 768px) {
@@ -203,7 +209,7 @@ figure.show {
     padding: 10px;
     font-size: 30px;
     font-weight: bold;
-    border-top: 50px solid black;
+ /*   border-top: 50px solid black;*/
     background: url("../img/orangeBackground.jpg");
     color: black;
   }
@@ -227,6 +233,7 @@ figure.show {
   	float: left;
     margin: 20px 0;
     width: 100%;
+/*    bottom: -300px;*/
   }
 
   #socialMedia {
