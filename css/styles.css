@@ -99,7 +99,6 @@ ul.topnav li.icon {
   	display: none;
 }
 
-<<<<<<< HEAD
 .carousel-inner {
 	height: 240px;
 }
@@ -168,7 +167,6 @@ figure.show {
 	border-bottom-right-radius: 3px;
 }
 
->>>>>>> 0db4ab98d76d4221a08ebded8a614b638c15e1ad
 
 /* For mobile phones */
 @media screen and (max-width: 768px) {
