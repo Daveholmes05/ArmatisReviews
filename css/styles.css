@@ -99,6 +99,9 @@ ul.topnav li.icon {
   	display: none;
 }
 
+.carousel-inner {
+	height: 240px;
+}
 
 /* For mobile phones */
 @media screen and (max-width: 768px) {
@@ -132,7 +135,7 @@ ul.topnav li.icon {
     padding: 10px;
     font-size: 30px;
     font-weight: bold;
-    border-top: 50px solid black;
+ /*   border-top: 50px solid black;*/
     background: url("../img/orangeBackground.jpg");
     color: black;
   }
@@ -156,6 +159,7 @@ ul.topnav li.icon {
   	float: left;
     margin: 20px 0;
     width: 100%;
+/*    bottom: -300px;*/
   }
 
   #socialMedia {
