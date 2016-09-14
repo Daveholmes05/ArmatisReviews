@@ -99,6 +99,7 @@ ul.topnav li.icon {
   	display: none;
 }
 
+<<<<<<< HEAD
 
 /* CSS IMAGE BANNER SLIDESHOW */
 .diy-slideshow {
@@ -132,6 +133,8 @@ figure.show {
 	position: static;
 	transition: 1s opacity;
 }
+=======
+>>>>>>> parent of ed57a96... slideshow added
 
 .next, .prev {
 	color: #fff;
