@@ -31,7 +31,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 	background: url("../img/darkBackgroundWoodPlanks.jpg") no-repeat;
-	color: orange;
+	color: #FFA500;
 }
 ol, ul {
 	list-style: none;
@@ -99,83 +99,16 @@ ul.topnav li.icon {
   	display: none;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 
 /* CSS IMAGE BANNER SLIDESHOW */
-.diy-slideshow {
-	position: relative;
-	display: block;
-	overflow: hidden;
-}
 
-figure {
-	position: absolute;
-	opacity: 0;
-	transition: 1s opacity;
-}
-
-figcaption {
-	position: absolute;
-	font-family: sans-serif;
-	font-size: .8em;
-	bottom: .75em;
-	right: .35em;
-	padding: .25em;
-	color: #fff;
-}
-
-figcaption a {
-	color: #fff;
-}
-
-figure.show {
-	opacity: 1;
-	position: static;
-	transition: 1s opacity;
-}
-=======
->>>>>>> parent of ed57a96... slideshow added
-
-.next, .prev {
-	color: #fff;
-	position: absolute;
-	background: rgba(0,0,0, .6);
-	top: 50%;
-	z-index: 50;
-	font-size: 2em;
-	margin-top: -.73em;
-	opacity: .3;
-	user-select: none;
-}
-=======
->>>>>>> parent of ed57a96... slideshow added
-
-.next:hover, .prev:hover {
-	cursor: pointer;
-	opacity: 1;
-}
-
-.next {
-	right: 0;
-	padding: 10px 5px 15px 10px;
-	border-top-left-radius: 3px;
-	border-bottom-left-radius: 3px;
-}
-
-.prev {
-	left: 0;
-	padding: 10px 10px 15px 5px;
-	border-top-right-radius: 3px;
-	border-bottom-right-radius: 3px;
-}
-
-=======
 .carousel-inner {
 	height: 240px;
 }
->>>>>>> ed57a96... slideshow added
+
+.carousel-indicators {
+	bottom: 20px;
+}
 
 /* For mobile phones */
 @media screen and (max-width: 768px) {
@@ -229,7 +162,7 @@ figure.show {
 
   footer {
     position: relative;
-    border-top: orange solid;
+    border-top: #FFA500 solid;
   	float: left;
     margin: 20px 0;
     width: 100%;
