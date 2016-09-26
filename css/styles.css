@@ -103,12 +103,17 @@ ul.topnav li.icon {
 /* CSS IMAGE BANNER SLIDESHOW */
 
 .carousel-inner {
-	height: 240px;
+	max-height: 500px;
 }
 
 .carousel-indicators {
 	bottom: 20px;
 }
+
+
+
+
+
 
 /* For mobile phones */
 @media screen and (max-width: 768px) {
@@ -177,6 +182,13 @@ ul.topnav li.icon {
   #socialMedia p {
   	margin: 10px 0;
   }
+
+  .carousel-inner img {
+  	height: 100%;
+    width: 100%;
+    position: relative;
+    top: 0;
+  }
 }
   
 
@@ -215,6 +227,13 @@ ul.topnav li.icon {
 @media (min-width: 768px) {
   body {
     
+  }
+
+  .carousel-inner img {
+  	height: 100%;
+    width: 100%;
+    position: relative;
+    top: -150px;
   }
 }
 
