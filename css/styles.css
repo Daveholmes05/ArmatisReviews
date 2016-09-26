@@ -114,8 +114,9 @@ ul.topnav li.icon {
 
 
 
-
-/* For mobile phones */
+/*******************************************/
+/************ For mobile phones ************/
+/*******************************************/
 @media screen and (max-width: 768px) {
   
   main {
@@ -223,24 +224,119 @@ ul.topnav li.icon {
 
 
 
-/* Tablets */
+/*******************************************/
+/**************** For tablets **************/
+/*******************************************/
 @media (min-width: 768px) {
   body {
     
   }
 
-  .carousel-inner img {
+  #AliensShirt {
   	height: 100%;
     width: 100%;
     position: relative;
     top: -150px;
   }
+
+  .sections h1 {
+  	text-align: center;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bold;
+ /*   border-top: 50px solid black;*/
+    background: url("../img/orangeBackground.jpg");
+    color: black;
+  }
+
+  .videos {
+  	margin: 0 20px;
+  	position: relative;
+  	text-align: center;
+  }
+
+  .videos iframe {
+  	margin: 10px 40px;
+  	height: 250px;
+  	width: 40%;
+  	position: relative;
+  	border: #FFA500 solid 1px;
+  }
+
+  footer {
+    position: relative;
+    border-top: #FFA500 solid;
+  	float: left;
+    margin: 20px 0;
+    width: 100%;
+	/*    bottom: -300px;*/
+  }
+
+  #socialMedia {
+  	margin: 0;
+  	text-align: center;
+  }
+
+  #socialMedia p {
+  	margin: 10px 0;
+  }
 }
 
 
-/* Desktops */
-@media (min-width: 960px) {
+/*******************************************/
+/*************** For Desktops **************/
+/*******************************************/
+@media (min-width: 1100px) {
   body {
     
+  }
+
+  #AliensShirt {
+  	height: 100%;
+    width: 100%;
+    position: relative;
+    top: -300px;
+  }
+
+  .sections h1 {
+  	text-align: center;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bold;
+ /*   border-top: 50px solid black;*/
+    background: url("../img/orangeBackground.jpg");
+    color: black;
+  }
+
+  .videos {
+  	margin: 0 20px;
+  	position: relative;
+  	text-align: center;
+  }
+
+  .videos iframe {
+  	margin: 10px 40px;
+  	height: 250px;
+  	width: 40%;
+  	position: relative;
+  	border: #FFA500 solid 1px;
+  }
+
+  footer {
+    position: relative;
+    border-top: #FFA500 solid;
+  	float: left;
+    margin: 20px 0;
+    width: 100%;
+	/*    bottom: -300px;*/
+  }
+
+  #socialMedia {
+  	margin: 0;
+  	text-align: center;
+  }
+
+  #socialMedia p {
+  	margin: 10px 0;
   }
 }
