@@ -110,20 +110,8 @@ ul.topnav li.icon {
 	bottom: 20px;
 }
 
-
-#batman {
-	height: 100px;
-	width: 100px;
-	float: right;
-	opacity: 0;
-	text-align: center;
-}
-
-#batman:hover {
-	height: 150px;
-	width: 150px;
-	opacity: 1;
-	overflow: hidden
+.videos {
+	margin: 20px 20px 0 20px;
 }
 
 
@@ -167,7 +155,7 @@ ul.topnav li.icon {
   }
 
   .videos {
-  	margin: 0 20px;
+/*  	margin: 20px 20px 0 20px;*/
   	position: relative;
   }
 
@@ -263,7 +251,7 @@ ul.topnav li.icon {
   }
 
   .videos {
-  	margin: 0 20px;
+/*  	margin: 20px 20px 0 20px;*/
   	position: relative;
   	text-align: center;
   }
@@ -322,7 +310,7 @@ ul.topnav li.icon {
   }
 
   .videos {
-  	margin: 0 20px;
+/*  	margin: 0 20px;*/
   	position: relative;
   	text-align: center;
   }
