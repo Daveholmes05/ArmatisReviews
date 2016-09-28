@@ -30,7 +30,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-	background: url("../img/darkBackgroundWoodPlanks.jpg") no-repeat;
+	background: url("../img/darkBackgroundWoodPlanks.jpg");
 	color: #FFA500;
 }
 ol, ul {
@@ -111,7 +111,7 @@ ul.topnav li.icon {
 }
 
 .videos {
-	margin: 20px 20px 0 20px;
+	margin: 20px 20%;
 }
 
 
@@ -155,16 +155,21 @@ ul.topnav li.icon {
   }
 
   .videos {
-/*  	margin: 20px 20px 0 20px;*/
+  	margin: 20px 20px 0 20px;
   	position: relative;
   }
 
   .videos iframe {
-  	margin: 10px auto;
-  	height: 300px;
+  	margin: 0 0 0 0;
+  	height: 200px;
   	width: 100%;
   	position: relative;
   	border: #FFA500 solid 1px;
+  }
+
+   .videos p {
+  	margin-bottom: 10%;
+  	text-align: center;
   }
 
   footer {
@@ -250,16 +255,12 @@ ul.topnav li.icon {
     color: black;
   }
 
-  .videos {
-/*  	margin: 20px 20px 0 20px;*/
-  	position: relative;
-  	text-align: center;
-  }
+  .videos {/* margin: auto 20%; *//* position: relative; *//* text-align: center; */}
 
   .videos iframe {
-  	margin: 10px 40px;
-  	height: 250px;
-  	width: 40%;
+  	/* margin: 10px 40px; */
+  	/* height: 250px; */
+  	/* width: 40%; */
   	position: relative;
   	border: #FFA500 solid 1px;
   }
@@ -309,16 +310,12 @@ ul.topnav li.icon {
     color: black;
   }
 
-  .videos {
-/*  	margin: 0 20px;*/
-  	position: relative;
-  	text-align: center;
-  }
+  .videos {/*  	margin: 0 20px;*/position: relative;/* text-align: center; */}
 
   .videos iframe {
-  	margin: 10px 40px;
-  	height: 250px;
-  	width: 40%;
+  	/* margin: 10px 40px; */
+  	/* height: 250px; */
+  	/* width: 100%; */
   	position: relative;
   	border: #FFA500 solid 1px;
   }
@@ -339,5 +336,50 @@ ul.topnav li.icon {
 
   #socialMedia p {
   	margin: 10px 0;
+  }
+}
+
+
+/* To fit the banner images on a wider screen */
+@media (min-width: 1400px) {
+  #AliensShirt {
+  	height: 100%;
+    width: 100%;
+    position: relative;
+    top: -500px;
+  }
+
+  #Armatis-Reviews-Saiga {
+  	top: -150px;
+  	position: relative;
+  }
+
+  #SavageSnow {
+  	position: relative;
+  	top: -150px;
+  }
+
+  .videos-left {
+  	float: left;
+    margin: 0 5px 50px 0;
+  }
+
+  .videos-left a, .videos-right a {
+  	display: inline;
+  }
+
+  .videos-right {
+  	float: right;
+    margin: 0 0 50px 5px;
+  }
+
+  .videos iframe {
+  	height: 300px;
+  	width: 500px;
+  }
+
+  .videos p {
+  	top: 130px;
+  	position: relative;
   }
 }
