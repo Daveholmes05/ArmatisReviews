@@ -114,6 +114,12 @@ ul.topnav li.icon {
 	margin: 20px 20%;
 }
 
+.aboutMe {
+	text-align: center;
+	margin: 20px 10%;
+	font-size: 25px;
+}
+
 
 /*******************************************/
 /************ For mobile phones ************/
@@ -142,6 +148,11 @@ ul.topnav li.icon {
     width: 100%;
     background: url("../img/Armatis_Reviews_Saiga.jpg") no-repeat top;
     background-size: cover;
+  }
+
+  .aboutMe {
+  	font-size: 20px;
+  	margin: 20px 5%;
   }
 
   .sections h1 {
