@@ -1,21 +1,23 @@
 <?php
-$name = $_POST['name'];
-$email = $_POST['email'];
-$message = $_POST['message'];
-$from = 'From: Bob';
-$to = 'bob@bobobob.com';
-$subject = 'BANG';
+if (empty($_POST) === false) {
+	$errors = array();
 
-$body = "From: $name/n Email: $email/n Message:/m $message";
+	$name 		= $_POST['name'];
+	$email 		= $_POST['email'];
+	$message 	= $_POST['message'];
 
+	if (empty($name) === true || empty($email) === true || empty($message) === true) {
+		$errors[] = 'Name, email, and message are required!';
 
-if ($_POST['submit']) {
-	/* Anything that goes in here is only performed if the form is submitted */
-	if (mail ($to, $subject, $body, $from)) {
-		echo '<p>Your message has been sent!</p>';
 	} else {
-		echo '<p>Something went wrong. Go back and try again</p>';
+		if (filter_var($email, FILTER_VALIDATE_EMAIL) === false) {
+			$errors[] = 'That\'s not a valid email address!';
+		}
+		if (ctype_alpha($name) === false) {
+			$errors[] = 'Name must only contain letters!';
+		}
 	}
-}
 
+print_r($errors);
+}
 ?>
