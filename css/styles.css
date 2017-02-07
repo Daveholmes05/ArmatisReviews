@@ -59,6 +59,10 @@ main {
   position: relative;
 }
 
+p {
+  font-family: 'Nunito', sans-serif;
+}
+
 /* Default CSS. Remove margins and padding from the list, and add a black background color */
 ul.topnav {
     list-style-type: none;
@@ -87,7 +91,10 @@ ul.topnav li a {
     padding: 20px 30px;
 }
 
-
+.active-tabs {
+  background-color: #333333;
+  color: orange;
+}
 
 /* Change background color of links on hover */
 ul.topnav li a:hover {
@@ -390,6 +397,10 @@ input:focus, textarea:focus {
     width: 100%;
     position: relative;
     top: -300px;
+  }
+
+  #arak {
+    bottom: 250px;
   }
 
   .sections h1 {

@@ -7,3 +7,7 @@ function iconClick() {
     x.className = "topnav";
   }
 }
+
+function test() {
+	$('.testHome').toggleClass('active-tabs');
+}

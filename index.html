@@ -29,6 +29,7 @@
   <meta name="msapplication-TileImage" content="img/favicon-144.png">
   <meta name="msapplication-config" content="/browserconfig.xml">
   <!-- ****** faviconit.com favicons ****** -->
+  <link href="https://fonts.googleapis.com/css?family=Nunito:600,800" rel="stylesheet">
 </head>
 
 <body>
@@ -37,7 +38,7 @@
 
   	<!-- Navigation Bar -->
     <ul class="topnav" id="myTopnav">
-	    <li><a href="http://www.armatisreviews.com" class="">Home</a></li>
+	    <li><a href="http://www.armatisreviews.com" class="testHome">Home</a></li>
 	    <li><a href="videos.html" class="">Videos</a></li>
 	    <li><a href="gallery.html">Gallery</a></li>
 	    <li><a href="reviews.html">Reviews</a></li>
@@ -56,6 +57,7 @@
     <li data-target="#carousel-example-generic" data-slide-to="1"></li>
     <li data-target="#carousel-example-generic" data-slide-to="2"></li>
     <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="4"></li>
   </ol>
 
   <!-- Wrapper for slides -->
@@ -77,6 +79,10 @@
       <img src="img/AliensShirt.jpg" alt="Armatis Reviews Shooting suppressed AR15" id="AliensShirt" style="height: 100%;width: 100%; position: relative;">
   	</div>
 
+    <div class="item">
+      <img src="img/arak.jpg" alt="762 Commie ARAK" id="arak" style="height: 100%;width: 100%; position: relative;">
+    </div>
+
   </div>
 
   <!-- Controls -->
@@ -97,6 +103,17 @@
 
     <!-- div for video thumbnails -->
     <div class="videos">
+    <!-- ADD NEW VIDEOS BELOW THIS DIV -->
+
+    <section class="videos-left">
+      <iframe src="https://www.youtube.com/embed/Z8wjA0pC5sY" frameborder="0" allowfullscreen=""></iframe>
+    </section>
+    <p style="font-weight: bolder;">January 30th, 2017</p>
+    <p>In this video I do an unboxing and overview of the Holosun HS403G red dot sight. Later I will do a review after using the Holosun HS403G for some time.</p>
+
+    <br style="clear: both;">
+
+
       <section class="videos-right">
         <iframe src="https://www.youtube.com/embed/QYEpq-EY33I" frameborder="0" allowfullscreen=""></iframe>
       </section>
@@ -141,7 +158,10 @@
    </footer>
 
   </main>
-
+<script
+  src="https://code.jquery.com/jquery-3.1.1.js"
+  integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+  crossorigin="anonymous"></script>
 <script type="text/javascript" src="js/scripts.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
